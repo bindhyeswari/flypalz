@@ -1,0 +1,62 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', 'Segoe UI', 'Helvetica' !important;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h1 {
+  font-weight: 300;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.top-header {
+  background-color: #f1f1f1;
+  overflow: auto;
+  padding-left: 2em;
+}
+
+.top-header .item {
+  cursor: pointer;
+  color: #0b0b0b;
+  line-height: 2.5em;
+  font-size: 0.85em;
+  float: left;
+  padding: 0 0.5em;
+}
+
+section.content {
+  width: 75%;
+  border: 1px solid #eee;
+  min-height: 50vh;
+  margin: 20px auto;
+  padding: 1em;
+}
+
+section.content h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+section.content .description {
+  font-weight: 300;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+div.description div.caption {
+  font-size: 0.75em;
+  max-width: 80%;
+  margin: 0 auto;
+  color: #444;
+  margin-top: 0.56em;
+  text-align: justify;
+}
