@@ -1,12 +1,15 @@
 @media (max-width: 1024px) {
   .tp-leftarrow, .tp-rightarrow {
+    display: none; !important;
     width: 40px !important;
     height: 40px !important; }
 
   .tp-leftarrow {
+    display: none; !important;
     left: -15px !important; }
 
   .tp-rightarrow {
+    display: none; !important;
     left: 101% !important; }
 
   .tparrows:before {
@@ -54,8 +57,8 @@
   .navbar {
     min-height: 60px; }
 
-  .navbar-brand > img {
-    width: 140px;
+  .c > img {
+    width: 100px;
     height: auto; }
 
   .navbar.navbar-default .navbar-nav > li > a {
